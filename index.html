@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio professionnel - Développeur web et analyste de données">
+    <title>Mon Portfolio Fodé Abass SOUMAH</title>
+    <!-- Lien vers la feuille de style externe -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- En-tête -->
+    <header>
+        <div class="logo">MonPortfolio</div>
+        <nav aria-label="Navigation principale">
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button class="theme-toggle" id="themeToggle" aria-label="Changer le thème">🌙</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section Accueil (Hero) -->
+        <section class="hero">
+            <h1>Bonjour, je suis <span>Fodé Abass SOUMAH</span></h1>
+            <p>Développeur web et Data Analyst, passionné par la conception d'interfaces modernes, performantes et accessibles. Facilite la prise de décision à travers l'analyse des données de grandes volume.</p>
+            <a href="#projects" class="btn">Découvrir mes projets</a>
+        </section>
+
+        <!-- Section À propos -->
+        <section id="about">
+            <h2>À propos de moi</h2>
+            <div class="card">
+                <p>Curieux et rigoureux, je m'intéresse de près au développement web, à l'analyse de données ainsi qu'à l'éco-conception numérique. Mon objectif est de concevoir des solutions web durables, utiles et centrées sur l'utilisateur.</p>
+                <img src="C:\Users\ADMIN\Videos\DEV WEB\Projet final\PROJET FINAL\assets\images\FODE ABASS SOUMAH.png" alt="Photo de profil" class="image-cercle">
+            </div>
+        </section>
+
+        <!-- Section Compétences -->
+        <section id="skills">
+            <h2>Mes Compétences</h2>
+            <div class="grid-2">
+                <div class="card">
+                    <h3>Développement Web</h3>
+                    <p>Création d'interfaces adaptatives et sémantiques.</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">HTML5 / Sémantique</span>
+                        <span class="skill-tag">CSS3 / Flexbox / Grid</span>
+                        <span class="skill-tag">JavaScript (ES6+)</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Outils & Méthodes</h3>
+                    <p>Gestion de projet, design et analyse.</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">Figma / Wireframing</span>
+                        <span class="skill-tag">Python & Analyse</span>
+                        <span class="skill-tag">Git / GitHub</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Data analyste</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Python / Pandas</span>
+                        <span class="skill-tag">Analyse de données</span>
+                        <span class="skill-tag">Visualisation de données</span>
+                        <span class="skill-tag">Excel Avancé</span>
+                        <span class="skill-tag">Gestion de paie</span>
+                        <span class="skill-tag">Langage R</span>
+                        <span class="skill-tag">Power BI</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Projets -->
+        <section id="projects">
+            <h2>Projets Récents</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3>Plateforme Éco-responsable</h3>
+                        <p>Site web optimisé pour minimiser l'empreinte carbone, intégrant un design épuré et des performances de chargement instantanées.</p>
+                        <a href="#" class="btn" style="text-align: center;">Voir le projet</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3>Tableau de bord de Données</h3>
+                        <p>Application d'analyse de données textuelles et numériques conçue pour simplifier la prise de décision stratégique.</p>
+                        <a href="#" class="btn" style="text-align: center;">Voir le projet</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact">
+            <h2>Me Contacter</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="name" required placeholder="Votre nom">
+                </div>
+                <div class="form-group">
+                    <label for="email">Adresse e-mail</label>
+                    <input type="email" id="email" name="email" required placeholder="votre.email@exemple.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Votre message..."></textarea>
+                </div>
+                <button type="submit" class="btn">Envoyer le message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2026 - Tous droits réservés | Conçu avec une démarche qualité et éco-responsable.</p>
+    </footer>
+
+    <!-- Lien vers le script JavaScript externe -->
+    <script src="script.js"></script>
+</body>
+</html>
